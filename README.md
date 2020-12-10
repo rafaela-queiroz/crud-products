@@ -1,6 +1,6 @@
 # Product's CRUD
 
-A simple application built to study and pratice development with Angular 9 and Material Design.
+A simple application built to study and practice development with Angular 9 and Material Design.
 
 # 🚀 Technologies
 
