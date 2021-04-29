@@ -13,7 +13,7 @@ A simple application built to study and practice development with Angular 9 and 
 
 ```
 Clone this repository
-$ git clone https://github.com/rqueiroz2108/ecoleta.git
+$ git clone https://github.com/rafaela-queiroz/crud-products.git
 ```
 
 ## Backend
