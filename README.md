@@ -43,5 +43,5 @@ $ npm install
 # Start the frontend
 $ npm start
 
-# The frontend will run on port 4200
+# The frontend will run on port 4220
 ```
