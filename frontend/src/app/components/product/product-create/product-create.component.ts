@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
-import { take } from "rxjs/operators";
 import { Product } from "../product.model";
 import { ProductService } from "../product.service";
 
@@ -18,13 +17,12 @@ export class ProductCreateComponent implements OnInit {
   constructor(private productService: ProductService, private router: Router) {}
 
   createProduct(): void {
-    this.productService
-      .create(this.product)
-      .pipe(take(1))
-      .subscribe(() => {
-        this.productService.showMessage("Produto criado com sucesso!");
-        this.router.navigate(["/products"]);
+    this.productService.create(this.product).subscribe(() => {
+      this.productService.showMessage({
+        message: "Produto criado com sucesso!",
       });
+      this.router.navigate(["/products"]);
+    });
   }
 
   cancel(): void {

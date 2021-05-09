@@ -13,3 +13,17 @@ body {
 .v-middle {
   vertical-align: middle;
 }
+
+.success {
+  background-color: #28a745;
+  color           : #fff;
+}
+
+.error {
+  background-color: #e35e6b;
+  color           : #fff;
+}
+
+a {
+  text-decoration: none;
+}

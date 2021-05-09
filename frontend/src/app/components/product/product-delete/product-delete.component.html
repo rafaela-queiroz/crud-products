@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>{{ data.name }}</h1>
+<div mat-dialog-content>
+  <p>Você tem certeza que deseja excluir o produto {{ data.name }}?</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Não, cancelar</button>
+  <button mat-button (click)="confirmDelete()" cdkFocusInitial color="warn">
+    Sim, excluir
+  </button>
+</div>
