@@ -1,0 +1,12 @@
+table {
+  width: 100%;
+}
+
+a:not(:last-child) {
+  margin-right: 5px;
+}
+
+a:last-child i {
+  color : #f63c3c;
+  cursor: pointer;
+}
